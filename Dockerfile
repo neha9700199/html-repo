@@ -1,5 +1,2 @@
-FROM nginx
-
-RUN cd /usr/share/nginx/html
-RUN echo "i am here" > index.html
-
+FROM ubuntu:14.04
+RUN apt-get update
