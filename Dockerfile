@@ -1,2 +1,3 @@
-FROM nginx
-
+FROM ubuntu:14.04
+RUN apt-get update
+RUN apt-get upgrade
