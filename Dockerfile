@@ -1,5 +1,4 @@
 FROM java:8
-RUN apt-get update -y
 RUN apt-get maven -y
 COPY my-app /opt/
 RUN cd /opt/my-app/
